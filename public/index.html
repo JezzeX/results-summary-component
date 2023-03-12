@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="font-hankengrotesk flex h-screen">
+    <!-- Container -->
+    <div
+      class="md:w-1/2 md:m-auto md:rounded-xl lg:flex lg:w-1/2 lg:justify-center lg:m-auto lg:shadow-2xl lg:rounded-3xl lg:h-3/4"
+    >
+      <!-- Upper Div -->
+      <div
+        class="lg:rounded-3xl lg:pt-32 lg:px-20 pt-5 py-10 px-10 rounded-b-3xl text-white text-center bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue lg:w-1/2"
+      >
+        <p class="text-center font-semibold text-lightLavender text-lg">
+          Your result
+        </p>
+
+        <!-- Circle -->
+        <div
+          class="bg-gradient-to-b mx-auto my-5 from-violetBlue pt-6 w-32 h-32 rounded-full to-persianBlue"
+        >
+          <p class="text-6xl font-extrabold">76</p>
+          <p class="font-semibold text-lightLavender text">of 100</p>
+        </div>
+        <!-- End of circle div -->
+
+        <p class="text-2xl font-bold">Great</p>
+        <p class="text-lightLavender">
+          You scored higher than 65% of the people who has taken these tests
+        </p>
+      </div>
+      <!-- Bottom div -->
+      <div class="py-10 mx-auto w-5/6 space-y-4 lg:w-1/2 lg:pt-28">
+        <p class="text-xl text-darkGrayBlue font-bold lg:ml-11">Summary</p>
+        <!-- Basis 1 -->
+        <div
+          class="lg:w-5/6 lg:mx-auto flex justify-between bg-lightRedTrans px-4 py-4 rounded-lg"
+        >
+          <div class="flex space-x-4">
+            <img src="img/icon-reaction.svg" alt="" />
+            <p class="flex text-lightRed font-bold">Reaction</p>
+          </div>
+          <p class="font-bold text-darkGrayBlue">
+            80 <span class="text-lightLavender">/ 100</span>
+          </p>
+        </div>
+        <!-- Basis 2 -->
+        <div
+          class="lg:w-5/6 lg:mx-auto flex justify-between bg-orangeyYellowTrans px-4 py-4 rounded-lg"
+        >
+          <div class="flex space-x-4">
+            <img src="img/icon-memory.svg" alt="" />
+            <p class="flex text-orangeyYellow font-bold">Memory</p>
+          </div>
+          <p class="font-bold text-darkGrayBlue">
+            80 <span class="text-lightLavender">/ 100</span>
+          </p>
+        </div>
+        <!-- Basis 3 -->
+        <div
+          class="lg:w-5/6 lg:mx-auto flex justify-between bg-greenTealTrans px-4 py-4 rounded-lg"
+        >
+          <div class="flex space-x-4">
+            <img src="img/icon-verbal.svg" alt="" />
+            <p class="flex text-greenTeal font-bold">Verbal</p>
+          </div>
+          <p class="font-bold text-darkGrayBlue">
+            80 <span class="text-lightLavender">/ 100</span>
+          </p>
+        </div>
+        <!-- Basis 4 -->
+        <div
+          class="lg:w-5/6 lg:mx-auto flex justify-between bg-cobaltBlueTrans px-4 py-4 rounded-lg"
+        >
+          <div class="flex space-x-4">
+            <img src="img/icon-visual.svg" alt="" />
+            <p class="flex text-cobaltBlue font-bold">Visual</p>
+          </div>
+          <p class="font-bold text-darkGrayBlue">
+            80 <span class="text-lightLavender">/ 100</span>
+          </p>
+        </div>
+        <button
+          class="bg-darkGrayBlue py-5 font-bold text-xl rounded-full text-white mx-auto block w-full lg:w-5/6"
+        >
+          Continue
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
